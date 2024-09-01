@@ -1,0 +1,1097 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Bus Driver Details - Gyan Kung Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light blue background */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ffffff; /* White background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0288d1; /* Blue background */
+            color: #ffffff; /* White text */
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            top: 10px;
+            left: 90px;
+            width: 80px; /* Adjust the width as needed */
+            height: auto;
+            border-radius: 50%;
+        }
+        .bus-section {
+            border: 1px solid #0288d1;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .bus-header {
+            background-color: #0288d1;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        .driver-details {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .driver-details img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .driver-info {
+            max-width: 70%;
+        }
+        .driver-info h2 {
+            margin: 0 0 10px;
+            color: #0288d1; /* Blue text */
+        }
+        .driver-info p {
+            margin: 5px 0;
+        }
+	
+	.info {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .word {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+		{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .container::before {
+            content: "";
+            background-image: url('bus.png');
+            background-size: contain;
+            background-repeat:repeat;
+            opacity: 0.2;
+            position: absolute;
+            top: 0;
+            left: 40;
+            width: 150%;
+            height: 150%;
+            z-index: -1;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0288d1;
+            color: #ffffff;
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+            border-radius: 50%;
+        }
+		
+		.feedback-form {
+            margin-top: 50px; /* Space above the form */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .feedback-form input, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function showInfo(id) {
+            var X = document.getElementById('id');
+            if (X.style.display === 'none' || X.style.display === '') {
+                X.style.display = 'block';
+            } else {
+                X.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Banner Image -->
+        <img src="file:///G:/BUS%20DETAILS/20102022125548_955552_Gyan-Kunj-Senior-Secondary-Academy-Ballia-(4).jpg"
+		alt="School Banner" size="40%" class="banner">
+
+        <div class="header">
+            <img src="file:///G:/BUS%20DETAILS/20102022124247_11_172479_Gyan-Kunj-Senior-Secondary-Academy-Ballia-(12).jpg" alt="School Logo" class="school Logo" height="90%">
+			
+            <h1>School Bus Driver Details</h1>
+            <h2>Gyan Kung Academy</h2Ś>
+            <p><strong>Total Buses:</strong> 65</p>
+        </div>
+		  
+ <table border="5" class="dataframe">
+ <div class="SAFETY GUIDLINES">
+   <tr><TD><h4>SAFETY GUIDLINES</h4></TD></tr>
+   <td><P><ul>
+  <li>Arrive at the bus stop at least five minutes early to avoid rushing.</li>
+  <li>Stay at a safe distance from the curb while waiting for the bus.</li>
+  <li>Wait for the bus to come to a complete stop before approaching it.</li>
+  <li>Use the handrail while getting on and off the bus to prevent falls.</li>
+  <li>Find a seat quickly and sit facing forward with your feet on the floor.</li>
+  <li>Keep the aisle clear of bags and other belongings to prevent tripping hazards.</li>
+  <li>Do not stick your hands, arms, or head out of the bus windows.</li>
+  <li>Stay seated and avoid distracting the bus driver during the ride.</li>
+  <li>Speak quietly and respect others on the bus.</li>
+  <li>Wait for the driver's signal before crossing the street after getting off the bus.</li>
+  <li>Cross in front of the bus, never behind it, and make sure the driver can see you.</li>
+</UL></P></td>
+</div></table>
+     
+        <div class="bus-section">
+                 
+<div class="bus-header">
+    <h2>Bus No. 1</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>ANIL CHAUDHRAY</h2>
+        <p><strong>Contact:</strong>91+8756399669</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info1')"><u>click</u></span> to see the information.</p>
+        <div id="info1" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>KATHUDA</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>BARUCHA</td>
+                    <td>07:10 am</td>
+                </tr>
+                <tr>
+                    <td>BHAGDA PAR</td>
+                    <td>07:15 am</td>
+                </tr>
+                <tr>
+                    <td>JAMUI</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>KUDIYA PAR</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>LILLKAR</td>
+                    <td>07:35 am</td>
+                </tr>
+                <tr>
+                    <td>BASDIH</td>
+                    <td>07:35 am</td>
+                </tr>
+                <tr>
+                    <td>PANITANKI</td>
+                    <td>07:40 am</td>
+                </tr>
+                <tr>
+                    <td>NAGRA MOD</td>
+                    <td>07:40 am</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Bus No. 2 -->
+<div class="bus-header">
+    <h2>Bus No. 2</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>VIJAYSHANKAR PANDEY </h2>
+        <p><strong>Contact:</strong>91+9454262044</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info2')"><u>click</u></span> to see the information.</p>
+        <div id="info2" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>LAKHNA PAR</td>
+                    <td>07:25 am</td>
+                </tr>
+                <tr>
+                    <td>SONBARSHA MOD,MAHULANPAR</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>BHATI CHATTI</td>
+                    <td>07:40 am</td>
+                
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 3</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>SHUBHAS YADAV </h2>
+        <p><strong>Contact:</strong>91+9450022230</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info3')"><u>click</u></span> to see the information.</p>
+        <div id="info3" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>RAKSHAWALI GATE</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>BHABVANVALI</td>
+                    <td>07:10 am</td>
+                </tr>
+                <tr>
+                    <td>SHAPUR</td>
+                    <td>07:15 am</td>
+				</tr>
+				<tr>
+                    <td>FARSHATAR</td>
+                    <td>07:20 am</td>
+				</tr>
+				<tr>
+                    <td>AWVAYM</td>
+                    <td>07:25 am</td>
+				</tr>
+				<tr>
+                    <td>CHANDER SHEKAR DHALA</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>PANISAR</td>
+                    <td>07:45 am</td>
+				</tr>
+				<tr>
+                    <td>NARLA</td>
+                    <td>07:50 am</td>
+				</tr>
+                
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 4</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>EMITYAJ </h2>
+        <p><strong>Contact:</strong>91+8528608144</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info4')"><u>click</u></span> to see the information.</p>
+        <div id="info4" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>SIKANDER PUR CHAURAHA</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>BAZARI MOD</td>
+                    <td>07:35 am</td>
+                </tr>
+                <tr>
+                    <td>NAGRA MOD</td>
+                    <td>07:35 am</td>
+                </tr>
+				<tr>
+                    <td>UPYADHYACHAK</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>KARMPUTA</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>RUDRVAR</td>
+                    <td>07:45 am</td>
+				</tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 5</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>NANDJI </h2>
+        <p><strong>Contact:</strong>91+6374770486</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info5')"><u>click</u></span> to see the information.</p>
+        <div id="info5" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>SIKANDERPUR JHULNIYA CHATTI</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>SIKANDERPUR CHAURAHA</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>SIKANDERPUR CHINEMA HALL</td>
+                    <td>07:35 am</td>
+                </tr>
+				<tr>
+                    <td>MILKI MOHALA</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>IRDMAH</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>BAZAR MOD</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>NAGRA MOD</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>THASEL</td>
+                    <td>07:40 am</td>
+				</tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 6</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>BHART SHINGH </h2>
+        <p><strong>Contact:</strong>91+9889117831</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info6')"><u>click</u></span> to see the information.</p>
+        <div id="info6" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>VIHARA(BRAHAMSTHAN)</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>BHARTIKA PURA </td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>DHUHA</td>
+                    <td>07:40 am</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 7</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>SHUDHIR YADAV </h2>
+        <p><strong>Contact:</strong>91+9721493850</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info7')"><u>click</u></span> to see the information.</p>
+        <div id="info7" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>PHALPURA FAILANI</td>
+                    <td>07:10 am</td>
+                </tr>
+                <tr>
+                    <td>FALPURA</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>KOTH CHAURHA</td>
+                    <td>07:25 am</td>
+                </tr>
+				<tr>
+                    <td>RASDI</td>
+                    <td>07:30 am</td>
+				</tr>
+			
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 8</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>SHIVJI </h2>
+        <p><strong>Contact:</strong>91+9454262044</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info8')"><u>click</u></span> to see the information.</p>
+        <div id="info8" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>GOSAIPUR</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>MOHMAMAD PUR</td>
+                    <td>07:25 am</td>
+                </tr>
+                <tr>
+                    <td>BSARIKHPUR</td>
+                    <td>07:25 am</td>
+                </tr>
+				<tr>
+                    <td>BASARIKHPUR</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>CHETAN KISHORE(BRAHAMSTHAN)</td>
+                    <td>07:30 am</td>
+				</tr><tr>
+                    <td>HERO HONDA AGENCY</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>MIRZAPUR</td>
+                    <td>07:40 am</td>
+				</tr>
+            </table>
+        </div>
+    </div>
+</div><div class="bus-header">
+    <h2>Bus No. 9</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>SHYAM NARYAN </h2>
+        <p><strong>Contact:</strong>91+9161389749</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info9')"><u>click</u></span> to see the information.</p>
+        <div id="info9" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>PALTUPUR</td>
+                    <td>06:40 am</td>
+                </tr>
+                <tr>
+                    <td>RAMPUR HAJIYA</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>VARMNIYA PURAPAR</td>
+                    <td>07:05 am</td>
+                </tr>
+				<tr>
+                    <td>EISHAR PITHAPATTI</td>
+                    <td>07:10 am</td>
+				</tr>
+				<tr>
+                    <td>BASTI BUJURG</td>
+                    <td>07:10 am</td>
+				</tr><tr>
+                    <td>KODAI</td>
+                    <td>07:15 am</td>
+				</tr><tr>
+                    <td>SIFIYA</td>
+                    <td>07:20am</td>
+				</tr><tr>
+                    <td>BHORO</td>
+                    <td>07:20 am</td>
+				</tr><tr>
+                    <td>KAILANI</td>
+                    <td>07:30 am</td>
+				</tr><tr>
+                    <td>GAJI PAAKD</td>
+                    <td>07:35 am</td>
+				</tr><tr>
+                    <td>RUDRVAR</td>
+                    <td>07:40 am</td>
+				</tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 10</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>ANIRUDRA VERMA </h2>
+        <p><strong>Contact:</strong>91+7395073839</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info10')"><u>click</u></span> to see the information.</p>
+        <div id="info10" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>USHMAAN PUR</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>AWVAYM</td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>CHAWKIYA MOD</td>
+                    <td>07:30 am</td>
+                </tr>
+				<tr>
+                    <td>SURYA HOSPITAL</td>
+                    <td>07:30 am</td>
+				</tr>
+				<tr>
+                    <td>CHAWKIYA MOD</td>
+                    <td>07:30 am</td>
+				</tr><tr>
+                    <td>UBHAVAM THANA</td>
+                    <td>07:35 am</td>
+				</tr><tr>
+                    <td>BELTHARA BAZAR</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>SONBARSHA</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>MATHIYA</td>
+                    <td>07:42 am</td>
+				</tr><tr>
+                    <td>HALDIRAMPUR</td>
+                    <td>07:45 am</td>
+				</tr><tr>
+                    <td>HALDIRAMPUR CHATTI </td>
+                    <td>07:45 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="bus-header">
+    <h2>Bus No. 11</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>RAMAUTAR </h2>
+        <p><strong>Contact:</strong>91+7607922367</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info11')"><u>click</u></span> to see the information.</p>
+        <div id="info11" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>FATHEPUR</td>
+                    <td>06:45 am</td>
+                </tr>
+                <tr>
+                    <td>MARYAD PUR</td>
+                    <td>06:55 am</td>
+                </tr>
+                <tr>
+                    <td>PAHADI PUR</td>
+                    <td>06:55 am</td>
+                </tr>
+				<tr>
+                    <td>KAMAL SAGAR</td>
+                    <td>07:00 am</td>
+				</tr>
+				<tr>
+                    <td>VELPALI<td>
+                    <td>07:00 am</td>
+				</tr><tr>
+                    <td>FARHI</td>
+                    <td>07:05 am</td>
+				</tr><tr>
+                    <td>AKHOP</td>
+                    <td>07:10 am</td>
+				</tr><tr>
+                    <td>VABHNIYAV</td>
+                    <td>07:10 am</td>
+				</tr><tr>
+                    <td>MADHUBAN DHALA</td>
+                    <td>07:15 am</td>
+				</tr><tr>
+                    <td>SABJI MANDI(BELTHARA ROD)</td>
+                    <td>07:15 am</td>
+				</tr><tr>
+                    <td>PANITANKI(BELTHARA ROD) </td>
+                    <td>07:20 am</td>
+				</tr><tr>
+                    <td>TAHSEEL(BELTHARA ROD) </td>
+                    <td>07:30 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Majic No. 12</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>ANJAR </h2>
+        <p><strong>Contact:</strong>91+9918469731</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info12')"><u>click</u></span> to see the information.</p>
+        <div id="info12" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>BHIMHAR</td>
+                    <td>07:30 am</td>
+                </tr>
+                <tr>
+                    <td>JHORIDIH</td>
+                    <td>07:35 am</td>
+                </tr>
+                <tr>
+                    <td>HADSER</td>
+                    <td>07:45 am</td>
+                </tr>
+				
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Force No. 14</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>GHANSHYAM UPADHYA </h2>
+        <p><strong>Contact:</strong>91+8052435097</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info14')"><u>click</u></span> to see the information.</p>
+        <div id="info14" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>MHATHAPAR</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>KASMAPUR</td>
+                    <td>07:30 am</td>
+                </tr>
+               
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bolero No. 15</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>LAXMAN YADAV</h2>
+        <p><strong>Contact:</strong>91+8853843053</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info15')"><u>click</u></span> to see the information.</p>
+        <div id="info15" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>MATHURI</td>
+                    <td>07:35 am</td>
+                </tr>
+                
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bus No. 16</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>MANAN YADAV</h2>
+        <p><strong>Contact:</strong>91+7390982369</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info16')"><u>click</u></span> to see the information.</p>
+        <div id="info16" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>BALOOPUR </td>
+                    <td>07:20 am</td>
+                </tr>
+                <tr>
+                    <td>HARDIYA</td>
+                    <td>07:25 am</td>
+                </tr>
+                <tr>
+                    <td>SIWAN KLAA</td>
+                    <td>07:30 am</td>
+                </tr>
+				<tr>
+                    <td>GANG KISHORE</td>
+                    <td>07:40 am</td>
+				</tr>
+				<tr>
+                    <td>SUNRISE SCHOOL</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>SIKANDERPUR CHAURAHA</td>
+                    <td>07:43 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bus No. 17</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>MUKTI NATH  TIWARI </h2>
+        <p><strong>Contact:</strong>91+9415318424</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info17')"><u>click</u></span> to see the information.</p>
+        <div id="info17" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>NARHI</td>
+                    <td>07:05 am</td>
+                </tr>
+                <tr>
+                    <td>JUDANPUR</td>
+                    <td>07:10 am</td>
+                </tr>
+                <tr>
+                    <td>DHIHWA CHATTI</td>
+                    <td>07:30 am</td>
+                </tr>
+				<tr>
+                    <td>DHIHWA (NAIBASTI)</td>
+                    <td>07:30 am</td>
+				</tr>
+				
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bus No. 18</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>SURESH PRASHAD </h2>
+        <p><strong>Contact:</strong>91+9453967078</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info18')"><u>click</u></span> to see the information.</p>
+        <div id="info18" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>NITHUBARI</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>KAILANI</td>
+                    <td>07:10 am</td>
+                </tr>
+                <tr>
+                    <td>UCHAWAR</td>
+                    <td>07:15 am</td>
+                </tr>
+				<tr>
+                    <td>KACHUWAR</td>
+                    <td>07:20 am</td>
+				</tr>
+				<tr>
+                    <td>BHOHARO</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>SIFIA</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>KHATANGA</td>
+                    <td>07:30 am</td><tr>
+                    <td>KHATANGI</td>
+                    <td>07:35 am</td>
+				</tr><tr>
+                    <td>BHARTHAWA</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>JAJAULI</td>
+                    <td>07:45 am</td>
+				</tr><tr>
+                    <td>HUSHAN PUR</td>
+                    <td>07:47 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bus No. 19</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>JAIRAM YADAV </h2>
+        <p><strong>Contact:</strong>91+8697755650</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info19')"><u>click</u></span> to see the information.</p>
+        <div id="info19" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>KOTHIYA</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>MOHMADPUR</td>
+                    <td>07:05 am</td>
+                </tr>
+                <tr>
+                    <td>MALIPUR PARSIYA</td>
+                    <td>07:10 am</td>
+                </tr>
+				<tr>
+                    <td>GUAAPAR</td>
+                    <td>07:12 am</td>
+				</tr>
+				<tr>
+                    <td>BHALIPUR</td>
+                    <td>07:14 am</td>
+				</tr><tr>
+                    <td>VIDHARA</td>
+                    <td>07:20 am</td>
+				</tr><tr>
+                    <td>FARSATAR</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>AWVAYM POWER HOUSE</td>
+                    <td>07:30 am</td>
+				</tr><tr>
+                    <td>CHAWKIYA MOD</td>
+                    <td>07:35 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+<div class="bus-header">
+    <h2>Bus No. 20</h2>
+</div>
+<div class="driver-details">
+    <div class="driver-info">
+        <h2>DINDYAL </h2>
+        <p><strong>Contact:</strong>91+8417859090</p>
+        <p><strong>Email:</strong> gyankunj_bansibazar@yahoo.com</p>
+        <p><b>Route:</b> <span class="route" onclick="showInfo('info20')"><u>click</u></span> to see the information.</p>
+        <div id="info20" class="info">
+            <table border="1" class="dataframe">
+                <tr>
+                    <td>STOPPAGE</td>
+                    <td>TIME</td>
+                </tr>
+                <tr>
+                    <td>MANIYAR</td>
+                    <td>07:00 am</td>
+                </tr>
+                <tr>
+                    <td>KHEJURI MOD</td>
+                    <td>07:05 am</td>
+                </tr>
+                <tr>
+                    <td>PILUI</td>
+                    <td>07:10 am</td>
+                </tr>
+				<tr>
+                    <td>ASHNA</td>
+                    <td>07:15 am</td>
+				</tr>
+				<tr>
+                    <td>BHADURA</td>
+                    <td>07:20 am</td>
+				</tr><tr>
+                    <td>NIPNIYA</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>SARKANDA</td>
+                    <td>07:25 am</td>
+				</tr><tr>
+                    <td>NAIBASTI</td>
+                    <td>07:30 am</td>
+				</tr><tr>
+                    <td>KAZIPUR</td>
+                    <td>07:35 am</td>
+				</tr><tr>
+                    <td>KHARID</td>
+                    <td>07:40 am</td>
+				</tr><tr>
+                    <td>GOSAIPUR </td>
+                    <td>07:40 am</td>
+				</tr>
+				
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+function showInfo(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+  
+</script>
+<div class="feedback-form">
+        <h2>Feedback</h2>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<footer style="text-align:center; padding: 20px; background-color: #f1f1f1;">
+    <p>&copy; 2024 GYAN KUNG ACADEMY. All rights reserved.</p>
+    <p>Group: <B>THE ARISE </B></p>
+</footer>
+ 
+</html>
